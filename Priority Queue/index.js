@@ -72,14 +72,17 @@ class PriorityQueue {
     }
   }
 }
-var queue = new PriorityQueue();
-queue.enqueue(10, 4);
-queue.enqueue(20, 2);
-queue.enqueue(30, 3);
-queue.enqueue(40, 1);
-queue.enqueue(4, 5);
-queue.enqueue(12, 5);
-queue.enqueue(12, 3);
-console.log(queue.values);
-console.log(queue.dequeue());
-console.log(queue.values);
+
+// var queue = new PriorityQueue();
+// queue.enqueue(10, 4);
+// queue.enqueue(20, 2);
+// queue.enqueue(30, 3);
+// queue.enqueue(40, 1);
+// queue.enqueue(4, 5);
+// queue.enqueue(12, 5);
+// queue.enqueue(12, 3);
+// console.log(queue.values);
+// console.log(queue.dequeue());
+// console.log(queue.values);
+
+module.exports = PriorityQueue;

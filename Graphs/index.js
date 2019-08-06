@@ -49,6 +49,24 @@ class Graph {
 
     return result;
   }
+  breadthFirst(start) {
+    const queue = [start];
+    let result = [];
+    let visited = {};
+    visited[start] = true;
+    let currentVertex;
+    while (queue.length) {
+      currentVertex = queue.shift();
+      result.push(currentVertex);
+      this.adjacencyList[currentVertex].forEach(neighbor => {
+        if (!visited[neighbor]) {
+          visited[neighbor] = true;
+          queue.push(neighbor);
+        }
+      });
+    }
+    return result;
+  }
 }
 
 var graph = new Graph();
@@ -58,14 +76,14 @@ graph.addVertex("Okinawa");
 graph.addVertex("Osaka");
 graph.addVertex("Nara");
 graph.addVertex("Kyoto");
-console.log(graph.adjacencyList);
+// console.log(graph.adjacencyList);
 graph.addEdge("Tokyo", "Okinawa");
-graph.addEdge("Osaka", "Okinawa");
+// graph.addEdge("Osaka", "Okinawa");
 graph.addEdge("Nara", "Okinawa");
 graph.addEdge("Nara", "Kyoto");
 console.log(graph.adjacencyList);
-console.log(graph.depthFirstRecursive("Tokyo"));
-
+// console.log(graph.depthFirstRecursive("Tokyo"));
+console.log(graph.breadthFirst("Tokyo"));
 //    tokyo
 //     |
 //     |
