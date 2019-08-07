@@ -9,15 +9,15 @@
   </tr>
   <tr>
     <td>Bubble Sort</td>
-    <td>O(n)</td> 
+    <td>O(n^2)</td> 
   </tr>
   <tr>
     <td>Selection Sort</td>
-    <td>O(n)</td> 
+    <td>O(n^2)</td> 
   </tr>
   <tr>
     <td>Merge Sort</td>
-    <td>O(logn)</td> 
+    <td>O(nlogn)</td> 
   </tr>
   <tr>
     <td>Radix Sort</td>
