@@ -52,4 +52,4 @@ Ulam Spiral
 </li>
 </ul>
 <br/>
-<img src="cetificate.jpg" alt="certificate" >
+<img src="certificate.jpg" alt="certificate" >
