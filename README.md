@@ -1,6 +1,6 @@
-### `Data-Structures`
+### `Data-Structures and Algorithms`
 
-# Sorting
+# Array sorting techniques
 
 <table style="width:100%">
   <tr>
@@ -25,31 +25,82 @@
   </tr>
 </table>
 
-# Singly Linked List
-
-# Doubly Linked List
-
-# Queues
-
-# Stacks
-
-# Heaps
-
-# Priority Queue
-
-# Hash Tables
-
-# Graphs
+# Data Structures	
+<table style="width:100%">
+  <tr>
+    <th>Data Structure</th>
+    <th>Access</th>
+     <th>Search</th>
+    <th>Insertion</th>
+    <th>Deletion</th>
+  </tr>
+  <tr>
+    <td>Singly Linked List</td>
+    <td>O(n)</td>
+    <td>O(n)</td> 
+    <td>O(1)</td> 
+    <td>O(n)</td>
+  </tr>
+   <tr>
+    <td>Doubly Linked List</td>
+    <td>O(n)</td>
+    <td>O(n)</td> 
+    <td>O(1)</td> 
+    <td>O(n)</td>
+  </tr>
+   <tr>
+    <td>Queues</td>
+    <td>O(n)</td>
+    <td>O(n)</td> 
+    <td>O(1)</td> 
+    <td>O(1)</td>
+  </tr>
+   <tr>
+    <td>Stacks</td>
+    <td>O(n)</td>
+    <td>O(n)</td> 
+    <td>O(1)</td> 
+    <td>O(1)</td>
+  </tr>
+   <tr>
+    <td>Heaps</td>
+    <td>O(n)</td>
+    <td>O(n)</td> 
+    <td>O(1)</td> 
+    <td>O(n)</td>
+  </tr>
+  <tr>
+    <td>Priority Queue</td>
+    <td>O(n)</td>
+    <td>O(n)</td> 
+    <td>O(1)</td> 
+    <td>O(n)</td>
+  </tr>
+  <tr>
+    <td>Hash Tables</td>
+    <td>O(n)</td>
+    <td>O(n)</td> 
+    <td>O(1)</td> 
+    <td>O(n)</td>
+  </tr>
+  <tr>
+    <td>Graphs</td>
+    <td>O(n)</td>
+    <td>O(n)</td> 
+    <td>O(1)</td> 
+    <td>O(n)</td>
+  </tr>
+</table>
 
 # Algorithms
 
 <ul>
 <li>
-Dijkstra's
+Dijkstra's shortest path
 </li>
 <li>
 Ulam Spiral
 </li>
 </ul>
 <br/>
-<img src="certificate.jpg" alt="certificate" >
+<img src="certificate.jpg" alt="certificate in Data structures and Algorithms" >
