@@ -25,7 +25,8 @@
   </tr>
 </table>
 
-# Data Structures	
+# Data Structures
+
 <table style="width:100%">
   <tr>
     <th>Data Structure</th>

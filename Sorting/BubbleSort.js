@@ -1,3 +1,4 @@
+// Place large values at the end of the array
 const BubbleSort = arr => {
   let temp;
   for (let i = arr.length; i > 0; i--) {

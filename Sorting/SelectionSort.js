@@ -1,3 +1,6 @@
+// get the min value and place in the start of the array
+// reverse of bubble sort
+
 const SelectionSort = arr => {
   let min;
   let temp;

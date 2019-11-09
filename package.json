@@ -1,13 +1,13 @@
 {
-  "name": "datastructsandalgo",
-  "version": "1.0.0",
+  "name": "datastructuresandalgorithms",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest test.js --watch"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Naresh",
+  "license": "MIT",
   "dependencies": {
     "jest": "^24.8.0"
   }
