@@ -117,3 +117,4 @@ console.log(tree.BFS());
 console.log(tree.DFSPreOrder());
 console.log(tree.DFSPostOrder());
 console.log(tree.DFSInOrder());
+console.log("test")
